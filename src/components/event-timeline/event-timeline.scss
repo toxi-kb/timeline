@@ -1,0 +1,32 @@
+.event-timeline {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Arial;
+
+    &__transaction-creation-button {
+        margin-right: 10px;
+    }
+
+    &__sorting {
+        margin-top: 20px;
+
+        &-item {
+            cursor: pointer;
+            margin-left: 15px;
+            color: #336699;
+
+            &_active {
+                cursor: default;
+                pointer-events: none;
+                color: black;
+            }
+        }
+    }
+
+    &__item {
+        cursor: pointer;
+        border-bottom: solid 1px #CCCCCC;
+        margin: 10px 0;
+        padding: 5px 0 5px 3px;
+    }
+}

@@ -1,0 +1,12 @@
+.select {
+    height: 28px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #ced4da;
+    background-color: white;
+
+    &:focus {
+        outline: 0;
+        border-color: #80bdff;
+    }
+}

@@ -1,0 +1,23 @@
+.button {
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    border-radius: 3px;
+    color: white;
+    height: 30px;
+    font-size: 14px;
+
+    &_color {
+        &_blue {
+            background-color: #007bff;
+        }
+
+        &_green {
+            background-color: #28a745;
+        }
+
+        &_red {
+            background-color: #dc3545;
+        }
+    }
+}

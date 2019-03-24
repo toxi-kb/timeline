@@ -1,0 +1,17 @@
+.form-element {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 18px;
+    position: relative;
+
+    &__label {
+        margin-bottom: 3px;
+    }
+
+    &__error {
+        position: absolute;
+        bottom: 0;
+        font-size: 14px;
+        color: rgba(255, 0, 0, 0.8);
+    }
+}

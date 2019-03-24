@@ -1,0 +1,19 @@
+.event-timeline-transaction {
+    &_type {
+        &_income {
+            .event-timeline-transaction__amount {
+                background-color: #CCFFCC;
+            }
+        }
+
+        &_expense {
+            .event-timeline-transaction__amount {
+                background-color: #FFCCCC;
+            }
+        }
+    }
+
+    &__date {
+        margin: 0 10px;
+    }
+}
